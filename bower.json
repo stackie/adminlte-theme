@@ -1,0 +1,30 @@
+{
+  "name": "adminlte-theme",
+  "private": true,
+  "dependencies": {
+    "adminlte": "~2.0.5",
+    "bootstrap": "~3.3.4",
+    "font-awesome": "~4.3.0"
+  },
+  "install": {
+    "path" : {
+      "js": "components/{key}/js",
+      "css": "components/{key}/css",
+      "eot": "components/{key}/fonts",
+      "svg": "components/{key}/fonts",
+      "ttf": "components/{key}/fonts",
+      "woff": "components/{key}/fonts"
+    },
+
+    "sources": {
+      "adminlte": [
+        "vendor/bower_components/adminlte/dist/js/*"
+      ],
+      "jquery": [
+        "vendor/bower_components/jquery/jquery.js",
+        "vendor/bower_components/jquery/jquery.min.js",
+        "vendor/bower_components/jquery/jquery.min.map"
+      ]
+    }
+  }
+}
