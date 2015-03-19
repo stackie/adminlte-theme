@@ -15,7 +15,7 @@
 		"orchestra/theme-installer": "~1.0"
 	},
 	"extra": {
-		"theme-name": "medium",
+		"theme-name": "adminlte",
 		"branch-alias": {
 			"dev-master": "1.0-dev"
 		}
