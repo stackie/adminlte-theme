@@ -7,3 +7,14 @@ $asset->script('jui-toggleSwitch', 'packages/orchestra/foundation/vendor/delta/j
 $asset->script('select2', 'packages/orchestra/foundation/components/select2/select2.min.js'); ?>
 
 {!! $asset->show() !!}
+
+@placeholder("orchestra.layout: footer")
+
+<script>
+jQuery(function onPageReady($) { 'use strict';
+    var dispatcher = Javie.make('event');
+    dispatcher.fire("orchestra.ready: {!! app('request')->path() !!}");
+});
+</script>
+
+@stack('orchestra.footer')

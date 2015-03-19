@@ -8,7 +8,7 @@
 		<a href="{{ handles('orchestra::/') }}">{{ memorize('site.name') }}</a>
 	</div>
 	<div class="login-box-body">
-		<p class="login-box-msg">{!! get_meta('title', 'Forgot Password') !!}</p>
+		<p class="login-box-msg">{!! trans('orchestra/foundation::title.forgot-password') !!}</p>
 		<form action="{{ handles('orchestra::forgot') }}" method="POST">
 			<input type="hidden" name="_token" value="{{ csrf_token() }}">
 			<div class="form-group has-feedback{{ $errors->has('email') ? ' has-error' : '' }}">
