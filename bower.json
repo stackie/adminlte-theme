@@ -4,18 +4,22 @@
   "dependencies": {
     "adminlte": "~2.0.5",
     "bootstrap": "~3.3.4",
-    "font-awesome": "~4.3.0"
+    "font-awesome": "~4.3.0",
+    "jquery": "~2.1.3"
   },
   "install": {
-    "path" : {
+    "path": {
       "js": "components/{key}/js",
       "css": "components/{key}/css",
+      "less": "vendor/bower_components/less",
       "eot": "components/{key}/fonts",
+      "otf": "components/{key}/fonts",
       "svg": "components/{key}/fonts",
       "ttf": "components/{key}/fonts",
-      "woff": "components/{key}/fonts"
-    },
+      "woff": "components/{key}/fonts",
+      "woff2": "components/{key}/fonts"
 
+    },
     "sources": {
       "adminlte": [
         "vendor/bower_components/adminlte/dist/js/*"
