@@ -1,0 +1,23 @@
+{
+	"name": "stackie/adminlte-theme",
+	"description": "AdminLTE Theme for Orchestra Platform",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Mior Muhammad Zaki",
+			"email": "crynobone@gmail.com",
+			"homepage": "https://github.com/crynobone"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"orchestra/theme-installer": "~1.0"
+	},
+	"extra": {
+		"theme-name": "medium",
+		"branch-alias": {
+			"dev-master": "1.0-dev"
+		}
+	},
+	"minimum-stability": "dev"
+}
