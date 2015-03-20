@@ -4133,5 +4133,12 @@ Gradient Background colors
 .skin-blue.layout-top-nav .main-header > .logo:hover {
   background: #3b8ab8;
 }
+.sidebar-menu li.open > .treeview-menu {
+  display: block;
+}
+.btn.btn-mini {
+  font-size: 11px;
+  padding: 3px 6px;
+}
 
 /*# sourceMappingURL=style.css.map */

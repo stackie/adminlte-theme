@@ -14,7 +14,6 @@
         </div>
         @endif
 
-        <?php set_meta('components::menu', ['class' => 'sidebar-menu !nav !navbar-nav']); ?>
         @include('orchestra/foundation::layouts.main._menu', ['menu' => app('orchestra.platform.menu')])
     </section>
 </aside>

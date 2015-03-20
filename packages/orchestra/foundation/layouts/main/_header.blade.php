@@ -5,6 +5,8 @@
 			<span class="sr-only">Toggle navigation</span>
 		</a>
 
+		@yield('navbar')
+
 		<?php $user = app('auth')->user(); ?>
 
 		<div class="navbar-custom-menu">
@@ -24,6 +26,7 @@
 						<li class="user-footer">
 							<div class="pull-left">
 								<a href="{{ handles('orchestra::account') }}" class="btn btn-default btn-flat">Profile</a>
+								<a href="{{ handles('orchestra::account/password') }}" class="btn btn-default btn-flat">Password</a>
 							</div>
 							<div class="pull-right">
 								<a href="{{ handles('orchestra::logout') }}" class="btn btn-default btn-flat">Sign out</a>

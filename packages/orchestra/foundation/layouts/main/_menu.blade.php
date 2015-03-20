@@ -2,7 +2,7 @@
     <li class="header">MAIN NAVIGATION</li>
     @foreach ($menu as $item)
         @if (1 > count($item->childs))
-            <li>
+            <li id="{{ $item->id }}">
                 <a href="{!! $item->link !!}">
                     {!! $item->title !!}
                 </a>
