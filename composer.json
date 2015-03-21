@@ -1,6 +1,7 @@
 {
 	"name": "stackie/adminlte-theme",
 	"description": "AdminLTE Theme for Orchestra Platform",
+	"type": "orchestra-theme",
 	"license": "MIT",
 	"authors": [
 		{
