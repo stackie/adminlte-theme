@@ -1,5 +1,8 @@
 @import "adminlte/build/less/adminLTE.less";
 @import "adminlte/build/less/skins/skin-blue.less";
+@import "partials/grid.less";
+@import "partials/helpers.less";
+@import "partials/select2.less";
 
 .sidebar-menu {
     li.open {
@@ -9,9 +12,21 @@
     }
 }
 
-.btn {
-    &.btn-mini {
-        font-size: 11px;
-        padding: 3px 6px;
+.table {
+    @media (min-width: 979px) {
+        th.th-action, td.th-action,
+        th.th-actions, td.th-actions {
+            width: 135px;
+            text-align: right;
+        }
+    }
+}
+
+.form-box {
+    fieldset {
+        padding: 20px 0 5px;
+    }
+    legend {
+        padding-top: 5px;
     }
 }
