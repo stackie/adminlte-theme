@@ -1,0 +1,11 @@
+* text=auto
+
+# Ignore following folder/file.
+/assets/less        export-ignore
+/.bowerrc           export-ignore
+/.gitattributes     export-ignore
+/.gitignore         export-ignore
+/bower.json         export-ignore
+/elixir.json        export-ignore
+/gulpfile.js        export-ignore
+/package.js         export-ignore
