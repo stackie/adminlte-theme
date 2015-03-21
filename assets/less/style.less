@@ -1,32 +1,10 @@
 @import "adminlte/build/less/adminLTE.less";
 @import "adminlte/build/less/skins/skin-blue.less";
+
+@import "partials/form.less";
 @import "partials/grid.less";
 @import "partials/helpers.less";
+@import "partials/table.less";
 @import "partials/select2.less";
 
-.sidebar-menu {
-    li.open {
-        > .treeview-menu {
-            display: block;
-        }
-    }
-}
-
-.table {
-    @media (min-width: 979px) {
-        th.th-action, td.th-action,
-        th.th-actions, td.th-actions {
-            width: 135px;
-            text-align: right;
-        }
-    }
-}
-
-.form-box {
-    fieldset {
-        padding: 20px 0 5px;
-    }
-    legend {
-        padding-top: 5px;
-    }
-}
+@import "partials/theme.less";
