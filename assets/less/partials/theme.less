@@ -13,6 +13,17 @@ form {
 	&.small-padding {
 		padding: 10px 15px !important;
 	}
+
+	.nav-stacked {
+		> li > a {
+			border-right: 3px solid transparent;
+		}
+
+		.list-group-item:first-child {
+			border-top-left-radius: 0px;
+			border-top-right-radius: 0px;
+		}
+	}
 }
 
 .sidebar-menu {
