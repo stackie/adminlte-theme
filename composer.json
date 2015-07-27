@@ -15,6 +15,13 @@
         "orchestra/avatar": "~3.0",
         "orchestra/theme-installer": "~1.0"
     },
+    "scripts": {
+        "update-frontend": [
+            "bower update",
+            "bower-installer",
+            "gulp"
+        ]
+    },
     "extra": {
         "theme-name": "adminlte",
         "branch-alias": {
