@@ -21,7 +21,7 @@ dir = {
 };
 
 elixir(function(mix) {
-  mix.less('style.less', null, {
+  mix.less('style.less', dir.asset.css+'/style.css', {
     paths: [dir.vendor+'/']
   });
 });
