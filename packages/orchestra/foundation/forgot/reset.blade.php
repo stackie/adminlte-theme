@@ -1,6 +1,6 @@
 @extends('orchestra/foundation::layouts.extra')
 
-<?php set_meta('html::body', ['class' => 'login-page']); ?>
+@set_meta('html::body', ['class' => 'login-page'])
 
 @section('content')
 <div class="login-box">

@@ -11,8 +11,8 @@
 
 		<div class="navbar-custom-menu">
 			<ul class="nav navbar-nav">
-				@if (! is_null($user))
-				<?php $avatar = app('orchestra.avatar')->user($user); ?>
+				@if(! is_null($user))
+				#{{ $avatar = app('orchestra.avatar')->user($user) }}
 				<li class="dropdown user user-menu">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 						<img src="{{ $avatar }}" class="user-image" alt="User Image"/>

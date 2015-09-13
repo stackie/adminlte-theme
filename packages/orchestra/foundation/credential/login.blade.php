@@ -43,7 +43,7 @@
 
 		<a href="{!! handles('orchestra::forgot') !!}">{{ trans('orchestra/foundation::title.forgot-password') }}</a>
 		<br>
-		@if (memorize('site.registrable', false))
+		@if(memorize('site.registrable', false))
 		<a href="{!! handles('orchestra::register') !!}" class="text-center">Register a new membership</a>
 		@endif
 	</div>
