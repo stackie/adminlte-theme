@@ -1,4 +1,4 @@
-<class="form-box">
+<div class="form-box">
 	{!! Form::open(array_merge($form, ['class' => 'form-horizontal'])) !!}
 
 	@if($token)
