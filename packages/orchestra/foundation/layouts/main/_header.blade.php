@@ -1,3 +1,5 @@
+@inject('user', 'Illuminate\Contracts\Auth\Authenticatable')
+
 <header class="main-header">
 	<a href="{{ handles('orchestra::/') }}" class="logo">{{ memorize('site.name') }}</a>
 	<nav class="navbar navbar-static-top" role="navigation">
@@ -6,8 +8,6 @@
 		</a>
 
 		@yield('navbar')
-
-		<?php $user = app('auth')->user(); ?>
 
 		<div class="navbar-custom-menu">
 			<ul class="nav navbar-nav">
