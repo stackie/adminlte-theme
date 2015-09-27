@@ -20,7 +20,7 @@
         "update-frontend": [
             "bower update",
             "bower-installer",
-            "gulp"
+            "gulp --production"
         ]
     },
     "extra": {
